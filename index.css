@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr repeat(6, 1fr); 
+    grid-template-rows: repeat(7, 1fr); 
+    grid-template-areas: 
+    "h s s s s s s"
+    "h s s s s s s"
+    "h s s s s s s"
+    "h s s s s s s"
+    "h s s s s s s"
+    "h s s s s s s"
+    "h pepe pepe pepe pepe pepe pepe";
+}
+
+header{
+    background-color: rgb(159, 219, 222);
+    grid-area: h;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+
+header .top {
+    align-self: flex-start; 
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+header .middle {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+section{
+    background-color: rgb(206, 255, 255);
+    grid-area: s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+table.mode{
+    margin-left: 20PX;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: beige;
+    grid-area: pepe;
+}
