@@ -58,6 +58,15 @@ table.mode{
     margin-top: 30px;
 }
 
+.articleform{
+    border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 footer{
     background-color: beige;
     grid-area: pepe;
