@@ -50,12 +50,18 @@ header .middle {
 section{
     background-color: rgb(206, 255, 255);
     grid-area: s;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
-table.mode{
-    margin-left: 20PX;
-    margin-top: 30px;
+table.mode {
+    margin-left: 20px;         
+    margin-top: 30px;          
+    border-collapse: collapse; 
+    width: auto;               
+    font-size: 24px;           
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .articleform{
@@ -71,3 +77,4 @@ footer{
     background-color: beige;
     grid-area: pepe;
 }
+
